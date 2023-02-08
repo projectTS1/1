@@ -79,7 +79,7 @@ end
 
 
 function Lighting:UpdateSkybox(Skybox: string): string--?
-    local Skyboxes = Utils.GetFolders("ponyhook/Games/The Streets/bin/skyboxes/").Folders
+    local Skyboxes = Utils.GetFolders("rc7/Games/The Streets/bin/skyboxes/").Folders
 
     for k, v in pairs(Skyboxes) do
         if k == Skybox then
