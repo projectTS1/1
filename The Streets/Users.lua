@@ -1,36 +1,18 @@
 return {
-    Developers = {"Elden", "xaxa", "f6oor"},
+    Developers = {"Owner", "developer", "runcmd"},
     Admin = {
-        [1892264393] = {
-            Tag = "Elden", -- AverageID:Elden (regularid)
-            Color = Color3.fromRGB(115, 65, 190)
+        [242190077] = {
+            Tag = "Owner",
+            Color = Color3.fromRGB(0, 0, 0)
         },
-        [3139503587] = {
-            Tag = "Elden", -- irregularlife (regularid)
-            Color = Color3.fromRGB(115, 65, 190)
-        },
-
-        [156878502] = {
-            Tag = "f6oor",
-            Color = Color3.fromRGB(40, 80, 180)
-        },
-        [1552377192] = {
-            Tag = "nixon",
-            Color = Color3.fromRGB(40, 40, 40)
+        [47715354] = {
+            Tag = "Owner",
+            Color = Color3.fromRGB(0, 0, 0)
         },
 
-        [481234921] = {
-            Tag = "reestart", -- reestart:DramaAlert
-            Color = Color3.fromRGB(105, 200, 40)
-        },
-        [880466877] = {
-            Tag = "reestart", -- MasabiI:Frank (reestart)
-            Color = Color3.fromRGB(105, 200, 40)
-        },
-
-        [1395537172] = {
-            Tag = "xaxa",
-            Color = Color3.fromRGB(210, 60, 75)
+        [101559111] = {
+            Tag = "developer",
+            Color = Color3.fromRGB(250, 0, 0)
         }
     },
     Owners = {}, -- Bot usage
