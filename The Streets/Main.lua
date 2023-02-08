@@ -16,7 +16,7 @@ local ORIGINAL_SPEED = 0 -- if this gets read first before write then umm :rainb
 local ORIGINAL_HIPHEIGHT = 2
 local ORIGINAL_JUMPPOWER = game:GetService("StarterPlayer").CharacterJumpPower
 
-local script_name = "rc7"
+local script_name = "ponyhook"
 local script_version
 
 local Stats = game:GetService("Stats")
@@ -6594,7 +6594,7 @@ function Initialize()
                 if GuiService:GetErrorMessage() ~= '' then
                     TeleportToPlace(game.PlaceId, game.JobId)
                     queue_on_teleport([[
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/elde-n/roblox-the-streets-pony-script/main/loadstring.lua"))("The Streets")
+                        print('?')
                     ]])
                     coroutine.yield()
                 end
