@@ -1,6 +1,6 @@
-# roblox-the-streets-pony-script
+# should work
 
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/elde-n/roblox-the-streets-pony-script/main/loadstring.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/projectTS1/1/main/loadstring.lua"))()
 ```
