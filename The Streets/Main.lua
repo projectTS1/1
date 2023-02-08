@@ -16,7 +16,7 @@ local ORIGINAL_SPEED = 0 -- if this gets read first before write then umm :rainb
 local ORIGINAL_HIPHEIGHT = 2
 local ORIGINAL_JUMPPOWER = game:GetService("StarterPlayer").CharacterJumpPower
 
-local script_name = "ponyhook"
+local script_name = "rc7"
 local script_version
 
 local Stats = game:GetService("Stats")
