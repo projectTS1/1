@@ -7,7 +7,7 @@
 
 
 local Settings = {
-    Accent = Color3.fromHex("#000000"),
+    Accent = Color3.fromHex("#0505050"),
     Font = Enum.Font.SourceSans,
     IsBackgroundTransparent = true,
     Rounded = false,
