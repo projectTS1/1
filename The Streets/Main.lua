@@ -50,7 +50,7 @@ local get_script_version = function()
 end
 
 script_version = get_script_version()
-if not import then return messagebox("Error 0x5; something went wrong, contact a owner", script_name .. ".cc", 0) end
+if not import then return messagebox("Error 0x5; Something went wrong, Contact a owner", script_name .. " ", 0) end
 
 local ESP
 local Menu
@@ -87,7 +87,7 @@ task.spawn(function() PlayerManager = import("PlayerManager") end)
 while not ESP or not Menu or not Enums or not Utils or not Network or not Configs or not Raycast or not Commands or not ToolData or not DoorData or not Lighting or not UserTable or not TimerClass or not PlayerManager do task.wait() end -- waiting for the modules to load...
 
 if (Utils.IsOriginal and game.PlaceVersion ~= 1521) or (Utils.IsPrison and game.PlaceVersion ~= 225) then
-    return messagebox("Error 0x2; failed to get version, contact a owner", script_name .. ".cc", 0)
+    return messagebox("Error 0x2; Something went wrong, Contact a owner", script_name .. " ", 0)
 end
 
 if _G.PonyHook then
